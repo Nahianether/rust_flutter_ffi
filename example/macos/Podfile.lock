@@ -1,0 +1,21 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - rust_flutter_ffi (0.0.1)
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - rust_flutter_ffi (from `Flutter/ephemeral/.symlinks/plugins/rust_flutter_ffi/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  rust_flutter_ffi:
+    :path: Flutter/ephemeral/.symlinks/plugins/rust_flutter_ffi/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  rust_flutter_ffi: ccd70a738ff268aa7a0fc8998ec6c3ba6d1209c0
+
+PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+
+COCOAPODS: 1.16.2

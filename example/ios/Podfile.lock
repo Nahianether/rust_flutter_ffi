@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - rust_flutter_ffi (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - rust_flutter_ffi (from `.symlinks/plugins/rust_flutter_ffi/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  rust_flutter_ffi:
+    :path: ".symlinks/plugins/rust_flutter_ffi/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  rust_flutter_ffi: f17c4b57c3af42e0f0ee4082bf552df62bc8c2fe
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.16.2

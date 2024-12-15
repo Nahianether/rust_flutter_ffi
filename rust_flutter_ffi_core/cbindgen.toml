@@ -1,0 +1,15 @@
+# Language for the generated bindings
+language = "C"
+
+# Style settings for the generated file
+braces = "SameLine"
+tab_width = 4
+
+# Whether to include documentation comments
+documentation = true
+
+# Include guards for the generated file
+include_guard = "RUST_FLUTTER_FFI_H"
+
+# Automatically add necessary standard library includes
+include_version = true
