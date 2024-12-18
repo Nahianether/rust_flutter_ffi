@@ -14,6 +14,8 @@ uintptr_t sum_async(uintptr_t a, uintptr_t b);
 
 char *sum_str(const char *a, const char *b);
 
+void main_engine(void);
+
 void free_c_string(char *s);
 
 #endif  /* RUST_FLUTTER_FFI_H */

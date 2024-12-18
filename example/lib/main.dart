@@ -67,6 +67,11 @@ class _MyAppState extends State<MyApp> {
                     );
                   },
                 ),
+                SizedBox(height: 10),
+                ElevatedButton(
+                  onPressed: () async => bindings.main_engine(),
+                  child: const Text('Run Engine'),
+                ),
               ],
             ),
           ),

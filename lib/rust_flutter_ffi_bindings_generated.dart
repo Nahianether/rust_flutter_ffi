@@ -75,6 +75,14 @@ class RustFlutterFfiBindings {
       ffi.Pointer<ffi.Char> Function(
           ffi.Pointer<ffi.Char>, ffi.Pointer<ffi.Char>)>();
 
+  void main_engine() {
+    return _main_engine();
+  }
+
+  late final _main_enginePtr =
+      _lookup<ffi.NativeFunction<ffi.Void Function()>>('main_engine');
+  late final _main_engine = _main_enginePtr.asFunction<void Function()>();
+
   void free_c_string(
     ffi.Pointer<ffi.Char> s,
   ) {
